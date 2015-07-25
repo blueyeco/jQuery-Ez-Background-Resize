@@ -2,6 +2,7 @@
     * jQuery plug-in
     * Easy Background Image Resizer
     * Developed by J.P. Given (http://johnpatrickgiven.com)
+    * Slight modifications by Blueye
     * Useage: anyone so long as credit is left alone
 ******************************************************/
 
@@ -53,7 +54,7 @@
 	
         $("#jq_ez_bg").css({
             "position":"fixed",
-            "top":"0px",
+            "top": jqez.top || "0px",
             "left":"0px",
             "z-index":"-1",
             "overflow":"hidden",
